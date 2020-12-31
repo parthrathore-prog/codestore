@@ -1,0 +1,22 @@
+<h1>Hii</h1>
+
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        <th>
+            Location
+        </th>
+        <th>
+            No. of Sits
+        </th>
+    </tr>
+{% for i in tables %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ i.location }}</td>
+        <td>{{ i.numberOfSits }}</td>
+    </tr>
+{% endfor %}
+
+</table>
