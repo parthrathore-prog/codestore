@@ -1,0 +1,1 @@
+Simply run "file.py" and you'll get your random card.
